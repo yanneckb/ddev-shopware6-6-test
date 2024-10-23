@@ -1,1 +1,0 @@
-# ddev-shopware6-6-test

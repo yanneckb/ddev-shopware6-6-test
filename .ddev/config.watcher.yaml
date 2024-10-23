@@ -1,0 +1,15 @@
+web_extra_exposed_ports:
+  - name: storefront-watcher
+    container_port: 9998
+    http_port: 9997
+    https_port: 9998
+  - name: admin-watcher
+    container_port: 8888
+    http_port: 8887
+    https_port: 8889
+
+web_environment:
+  - HOST=0.0.0.0
+  - PORT=9998
+  - APP_URL=${DDEV_PRIMARY_URL}
+  - ESLINT_DISABLE=true
