@@ -13,3 +13,4 @@ web_environment:
   - PORT=9998
   - APP_URL=${DDEV_PRIMARY_URL}
   - ESLINT_DISABLE=true
+  # - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true ### could fix errors when bin/watch-storefront
